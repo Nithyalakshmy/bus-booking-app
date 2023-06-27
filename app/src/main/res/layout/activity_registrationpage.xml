@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    tools:context=".Registrationpage">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bus8"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:text="Registration Page"
+        android:textColor="#1B5E20"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Name :"
+        android:textSize="20dp"
+        android:textColor="#111" />
+
+    <EditText
+        android:id="@+id/regname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="type here"
+        android:paddingLeft="10dp"
+        android:background="@drawable/editshap"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Password :"
+        android:textSize="20dp"
+        android:textColor="#111" />
+
+    <EditText
+        android:id="@+id/regpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="type here"
+        android:paddingLeft="10dp"
+        android:background="@drawable/editshap"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Ph.No :"
+        android:textSize="20dp"
+        android:textColor="#111" />
+
+    <EditText
+        android:id="@+id/regphno"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="type here"
+        android:paddingLeft="10dp"
+        android:background="@drawable/editshap"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Gender :"
+        android:textSize="20dp"
+        android:textColor="#111" />
+
+    <Spinner
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/editshap"
+        android:id="@+id/genspin"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="200dp"
+            android:paddingBottom="30dp"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:text="Create"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/btnshape"
+                android:id="@+id/regsubbtn"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

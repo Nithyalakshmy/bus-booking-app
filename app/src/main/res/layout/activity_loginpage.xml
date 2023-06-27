@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Loginpage">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/bus4"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:text="Login Page"
+        android:textColor="#4A148C"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Name :"
+        android:textSize="20dp"
+        android:textColor="#111" />
+
+    <EditText
+        android:id="@+id/loginname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="type here"
+        android:paddingLeft="10dp"
+        android:background="@drawable/editshap"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:text="Password :"
+        android:textSize="20dp"
+        android:textColor="#111" />
+
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="type here"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/editshap"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Create"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btnshape"
+            android:id="@+id/logsubbtn"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/createnew"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:text="Create New!"
+        android:textColor="#111"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

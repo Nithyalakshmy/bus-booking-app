@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Paymount">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+
+            android:orientation="vertical"
+            >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/bus7"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Payment Page"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+
+        android:orientation="horizontal"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TOTAL AMOUNT:"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showtotalamt"
+            android:layout_marginLeft="20dp"
+            android:text=""
+            android:textColor="#0D47A1"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ACCOUNT DETAILS"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="ACCOUNT NUMBER:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Type HERE"
+    android:id="@+id/pay1"
+    android:background="@android:drawable/edit_text"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CARD NUMBER:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type HERE"
+                android:background="@android:drawable/edit_text"
+                android:textSize="15dp"
+                android:id="@+id/pay2"
+                android:textStyle="bold"
+                android:inputType="number"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="MOBILE NUMBER:"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Type HERE"
+                android:id="@+id/pay3"
+                android:background="@android:drawable/edit_text"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:inputType="number"
+                />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ENTER AMOUNT:"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Type HERE"
+                    android:id="@+id/pay4"
+                    android:background="@android:drawable/edit_text"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:inputType="number"
+                    />
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="PAY"
+    android:id="@+id/paybt"
+    android:textStyle="bold"
+    android:textSize="15dp"
+    />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+        >
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/paytx"
+                android:background="@drawable/downloadgpay"
+                />
+
+
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/paytx1"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/downloadphonepay"/>
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

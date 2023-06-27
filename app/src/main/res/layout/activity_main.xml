@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bus3"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:fontFamily="@font/abril_fatface"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:text="E-Bus"
+        android:textColor="#4A148C"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <ProgressBar
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:indeterminateTint="#4A148C"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="Please Wait..."
+        android:gravity="center"
+        android:textColor="#4A148C"
+        android:textStyle="bold"/>
+
+</LinearLayout>
